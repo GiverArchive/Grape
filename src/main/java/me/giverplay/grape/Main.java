@@ -2,6 +2,7 @@ package me.giverplay.grape;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello Grapes");
+    Game game = new Game();
+    game.start();
   }
 }
