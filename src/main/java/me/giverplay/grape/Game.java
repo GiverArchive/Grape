@@ -28,4 +28,8 @@ public class Game {
     this.update();
     this.draw();
   }
+
+  public Loop getLoop() {
+    return loop;
+  }
 }
